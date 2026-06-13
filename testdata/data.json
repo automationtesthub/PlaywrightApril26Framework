@@ -1,0 +1,19 @@
+{
+  "verify_Title_TC01": {
+    "title": "vtiger CRM - Commercial Open Source CRM"
+  },
+  "verify_invalid_login_TC03": {
+    "username": "admin",
+    "password": "admin123"
+  },
+  "verify_valid_login_TC04": {
+    "username": "admin",
+    "password": "admin"
+  },
+  "verify_create_lead_with_mandatory_fields_TC05": {
+        "username": "admin",
+        "password": "admin",
+        "lastname": "Modi",
+        "company": "BJP"
+    }
+}

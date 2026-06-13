@@ -1,0 +1,5 @@
+TCName,title,username,password,lastname,company
+verify_Title_TC01,vtiger CRM - Commercial Open Source CRM,,,,
+verify_invalid_login_TC03,,admin,admin123,,
+verify_valid_login_TC04,,admin,admin,,
+verify_create_lead_with_mandatory_fields_TC05,,admin,admin,Gandhi,Congress
