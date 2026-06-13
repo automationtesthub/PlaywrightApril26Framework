@@ -15,6 +15,8 @@ export default defineConfig({
   testDir: './tests',
   timeout: 60000,
   expect: { timeout: 10000 },
+  grep: /@sanity/, 
+  //grepInvert:/@regression/,
   /* Run tests in files in parallel */
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
